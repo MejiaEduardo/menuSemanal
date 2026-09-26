@@ -1,0 +1,12 @@
+C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.Domain\bin\Debug\net10.0\MenuSemanal.Domain.deps.json
+C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.Domain\bin\Debug\net10.0\MenuSemanal.Domain.dll
+C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.Domain\bin\Debug\net10.0\MenuSemanal.Domain.pdb
+C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.Domain\obj\Debug\net10.0\MenuSemanal.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.Domain\obj\Debug\net10.0\MenuSemanal.Domain.AssemblyInfoInputs.cache
+C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.Domain\obj\Debug\net10.0\MenuSemanal.Domain.AssemblyInfo.cs
+C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.Domain\obj\Debug\net10.0\MenuSemanal.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.Domain\obj\Debug\net10.0\MenuSemanal.Domain.sourcelink.json
+C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.Domain\obj\Debug\net10.0\MenuSemanal.Domain.dll
+C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.Domain\obj\Debug\net10.0\refint\MenuSemanal.Domain.dll
+C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.Domain\obj\Debug\net10.0\MenuSemanal.Domain.pdb
+C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.Domain\obj\Debug\net10.0\ref\MenuSemanal.Domain.dll

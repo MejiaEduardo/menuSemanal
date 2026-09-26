@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "MenuSemanal.Application/1.0.0": {
+        "dependencies": {
+          "MenuSemanal.Domain": "1.0.0"
+        },
+        "runtime": {
+          "MenuSemanal.Application.dll": {}
+        }
+      },
+      "MenuSemanal.Domain/1.0.0": {
+        "runtime": {
+          "MenuSemanal.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MenuSemanal.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MenuSemanal.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

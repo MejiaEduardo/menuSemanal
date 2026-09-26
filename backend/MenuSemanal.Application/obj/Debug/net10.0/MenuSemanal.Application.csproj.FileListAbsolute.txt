@@ -1,0 +1,16 @@
+C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.Application\bin\Debug\net10.0\MenuSemanal.Application.deps.json
+C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.Application\bin\Debug\net10.0\MenuSemanal.Application.dll
+C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.Application\bin\Debug\net10.0\MenuSemanal.Application.pdb
+C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.Application\bin\Debug\net10.0\MenuSemanal.Domain.dll
+C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.Application\bin\Debug\net10.0\MenuSemanal.Domain.pdb
+C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.Application\obj\Debug\net10.0\MenuSemanal.Application.csproj.AssemblyReference.cache
+C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.Application\obj\Debug\net10.0\MenuSemanal.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.Application\obj\Debug\net10.0\MenuSemanal.Application.AssemblyInfoInputs.cache
+C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.Application\obj\Debug\net10.0\MenuSemanal.Application.AssemblyInfo.cs
+C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.Application\obj\Debug\net10.0\MenuSemanal.Application.csproj.CoreCompileInputs.cache
+C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.Application\obj\Debug\net10.0\MenuSemanal.Application.sourcelink.json
+C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.Application\obj\Debug\net10.0\MenuSema.2138C944.Up2Date
+C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.Application\obj\Debug\net10.0\MenuSemanal.Application.dll
+C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.Application\obj\Debug\net10.0\refint\MenuSemanal.Application.dll
+C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.Application\obj\Debug\net10.0\MenuSemanal.Application.pdb
+C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.Application\obj\Debug\net10.0\ref\MenuSemanal.Application.dll
