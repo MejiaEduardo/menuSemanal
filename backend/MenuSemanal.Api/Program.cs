@@ -1,5 +1,7 @@
 using DotNetEnv;
 using MenuSemanal.Infrastructure;
+using Scalar.AspNetCore; // 1. Importamos Scalar
+using MenuSemanal.Application;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,14 +11,15 @@ Env.Load();
 var connectionString = Environment.GetEnvironmentVariable("ConnectionStrings__PostgresConnection")
                        ?? throw new InvalidOperationException("Falta la cadena de conexión.");
 
+// Llamamos al método que inyecta los repositorios y la base de datos
+
+
+builder.Services.AddInfrastructure(connectionString);
+builder.Services.AddControllers();
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
-
-// Llamamos al método que inyecta los repositorios y la base de datos
-builder.Services.AddInfrastructure(connectionString);
-
-builder.Services.AddControllers();
+builder.Services.AddApplication();
 
 var app = builder.Build();
 
@@ -26,9 +29,12 @@ app.UseHttpsRedirection();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+    // levanta la interfaz grafica moderna consumiendo ese JSON
+    app.MapScalarApiReference();
 }
 
 app.MapControllers();
+app.Run();
 
 var summaries = new[]
 {
@@ -49,7 +55,7 @@ app.MapGet("/weatherforecast", () =>
     })
     .WithName("GetWeatherForecast");
 
-app.Run();
+
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
 {

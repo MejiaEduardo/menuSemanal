@@ -4,7 +4,7 @@ services:
     image: postgres:16-alpine
     container_name: postgres-habitforge
     env_file:
-      - .env # Inyecta las variables exclusivas del contenedor
+      - .env
     ports:
       - "5432:5432"
     volumes:

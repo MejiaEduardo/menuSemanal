@@ -123,9 +123,12 @@ C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\me
 C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.API\obj\Debug\net10.0\staticwebassets.development.json
 C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.API\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.API\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.API\obj\Debug\net10.0\MenuSema.6B5FADDD.Up2Date
 C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.API\obj\Debug\net10.0\MenuSemanal.Api.dll
 C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.API\obj\Debug\net10.0\refint\MenuSemanal.Api.dll
 C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.API\obj\Debug\net10.0\MenuSemanal.Api.pdb
 C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.API\obj\Debug\net10.0\MenuSemanal.Api.genruntimeconfig.cache
 C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.API\obj\Debug\net10.0\ref\MenuSemanal.Api.dll
+C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.API\bin\Debug\net10.0\Scalar.AspNetCore.dll
+C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.API\bin\Debug\net10.0\FluentValidation.dll
+C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.API\bin\Debug\net10.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Hugo Mejia\Desktop\Hu Eduardo Mejia\INGENIERIA EN SISTEMAS\Pogra web\menuSemanal\backend\MenuSemanal.Api\obj\Debug\net10.0\MenuSema.6B5FADDD.Up2Date

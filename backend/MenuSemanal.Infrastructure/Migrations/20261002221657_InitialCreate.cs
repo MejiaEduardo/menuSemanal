@@ -12,7 +12,7 @@ namespace MenuSemanal.Infrastructure.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "MenuGlobal",
+                name: "MenusGlobales",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "integer", nullable: false)
@@ -21,7 +21,7 @@ namespace MenuSemanal.Infrastructure.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_MenuGlobal", x => x.Id);
+                    table.PrimaryKey("PK_MenusGlobales", x => x.Id);
                 });
         }
 
@@ -29,7 +29,7 @@ namespace MenuSemanal.Infrastructure.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "MenuGlobal");
+                name: "MenusGlobales");
         }
     }
 }

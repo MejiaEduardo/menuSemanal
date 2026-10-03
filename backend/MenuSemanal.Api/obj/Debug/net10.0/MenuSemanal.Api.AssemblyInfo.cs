@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MenuSemanal.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c58ff9e863c252cad358bf2a9320c9b6332c945")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f67d830570b13e2d937f19e96ef4e3716a5b7a27")]
 [assembly: System.Reflection.AssemblyProductAttribute("MenuSemanal.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MenuSemanal.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

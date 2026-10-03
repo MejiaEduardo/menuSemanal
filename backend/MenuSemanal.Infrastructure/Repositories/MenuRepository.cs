@@ -3,20 +3,26 @@ using MenuSemanal.Application.Interfaces;
 using MenuSemanal.Domain.Entities;
 using MenuSemanal.Infrastructure.Data;
 
-
 namespace MenuSemanal.Infrastructure.Repositories;
 
-public class MenuRepository : IMenuRepository {
+public class MenuRepository : IMenuRepository
+{
     private readonly MenuSemanalDbContext _context;
 
     public MenuRepository(MenuSemanalDbContext context)
     {
-        _context = context;   
+        _context = context;
     }
 
-    // el constructor recibe el contexto de EF core
-    public async Task<IEnumerable<menuGlobal>> GetAllAsync()
+    public async Task<MenuGlobal> AddAsync(MenuGlobal menu)
     {
-        return await _context.MenuGlobal.ToListAsync();
+        await _context.MenusGlobales.AddAsync(menu);
+        await _context.SaveChangesAsync();
+        return menu;
+    }
+
+    public async Task<IEnumerable<MenuGlobal>> GetAllAsync()
+    {
+        return await _context.MenusGlobales.ToListAsync();
     }
 }

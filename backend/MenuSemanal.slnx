@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="MenuSemanal.API/MenuSemanal.API.csproj" />
+  <Project Path="MenuSemanal.Application/MenuSemanal.Application.csproj" />
+  <Project Path="MenuSemanal.Domain/MenuSemanal.Domain.csproj" />
+  <Project Path="MenuSemanal.Infrastructure/MenuSemanal.Infrastructure.csproj" />
+</Solution>

@@ -21,7 +21,7 @@ namespace MenuSemanal.Infrastructure.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("MenuSemanal.Domain.Entities.menuGlobal", b =>
+            modelBuilder.Entity("MenuSemanal.Domain.Entities.MenuGlobal", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -35,7 +35,7 @@ namespace MenuSemanal.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("MenuGlobal");
+                    b.ToTable("MenusGlobales");
                 });
 #pragma warning restore 612, 618
         }

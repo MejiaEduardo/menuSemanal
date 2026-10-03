@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "31I85iFU58w=",
+  "dgSpecHash": "HsBG1rVOs/o=",
   "success": true,
   "projectFilePath": "C:\\Users\\Hugo Mejia\\Desktop\\Hu Eduardo Mejia\\INGENIERIA EN SISTEMAS\\Pogra web\\menuSemanal\\backend\\MenuSemanal.Application\\MenuSemanal.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Hugo Mejia\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
+    "C:\\Users\\Hugo Mejia\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
+    "C:\\Users\\Hugo Mejia\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

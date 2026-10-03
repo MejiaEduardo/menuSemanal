@@ -1,9 +1,8 @@
-﻿using MenuSemanal.Application.Interfaces;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using MenuSemanal.Application.Interfaces;
 using MenuSemanal.Infrastructure.Data;
 using MenuSemanal.Infrastructure.Repositories;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
 
 namespace MenuSemanal.Infrastructure;
 
