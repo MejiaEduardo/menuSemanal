@@ -18,6 +18,9 @@ public static class DependencyInjection
         // "Cada vez que un Chef (Controlador) pida la Receta (IHabitoRepository), 
         // entrégale los datos de la Finca PostgreSQL (HabitoRepository)"
         services.AddScoped<IMenuRepository, MenuRepository>();
+		services.AddScoped<IPlatilloRepository, PlatilloRepository>();
+        services.AddScoped<IMenuPlatilloRepository, MenuPlatilloRepository>();
+
         
         return services;
     }

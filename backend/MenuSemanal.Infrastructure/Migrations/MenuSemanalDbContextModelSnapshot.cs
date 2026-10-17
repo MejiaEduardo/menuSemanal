@@ -31,11 +31,92 @@ namespace MenuSemanal.Infrastructure.Migrations
 
                     b.Property<string>("Nombre")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
 
                     b.HasKey("Id");
 
                     b.ToTable("MenusGlobales");
+                });
+
+            modelBuilder.Entity("MenuSemanal.Domain.Entities.MenuPlatillo", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("DiaSemana")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("MenuGlobalId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("PlatilloId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("TipoComida")
+                        .HasColumnType("integer");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("MenuGlobalId");
+
+                    b.HasIndex("PlatilloId");
+
+                    b.ToTable("MenuPlatillos");
+                });
+
+            modelBuilder.Entity("MenuSemanal.Domain.Entities.Platillo", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Descripcion")
+                        .HasMaxLength(500)
+                        .HasColumnType("character varying(500)");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Platillos");
+                });
+
+            modelBuilder.Entity("MenuSemanal.Domain.Entities.MenuPlatillo", b =>
+                {
+                    b.HasOne("MenuSemanal.Domain.Entities.MenuGlobal", "MenuGlobal")
+                        .WithMany("MenuPlatillos")
+                        .HasForeignKey("MenuGlobalId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("MenuSemanal.Domain.Entities.Platillo", "Platillo")
+                        .WithMany("MenuPlatillos")
+                        .HasForeignKey("PlatilloId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("MenuGlobal");
+
+                    b.Navigation("Platillo");
+                });
+
+            modelBuilder.Entity("MenuSemanal.Domain.Entities.MenuGlobal", b =>
+                {
+                    b.Navigation("MenuPlatillos");
+                });
+
+            modelBuilder.Entity("MenuSemanal.Domain.Entities.Platillo", b =>
+                {
+                    b.Navigation("MenuPlatillos");
                 });
 #pragma warning restore 612, 618
         }

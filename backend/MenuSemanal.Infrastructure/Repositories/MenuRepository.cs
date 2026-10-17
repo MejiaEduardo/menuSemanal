@@ -14,15 +14,34 @@ public class MenuRepository : IMenuRepository
         _context = context;
     }
 
+    public async Task<IEnumerable<MenuGlobal>> GetAllAsync()
+    {
+        return await _context.MenusGlobales.AsNoTracking().ToListAsync();
+    }
+
+    public async Task<MenuGlobal?> GetByIdAsync(int id)
+    {
+        return await _context.MenusGlobales.FirstOrDefaultAsync(m => m.Id == id);
+    }
+    
+    
     public async Task<MenuGlobal> AddAsync(MenuGlobal menu)
     {
         await _context.MenusGlobales.AddAsync(menu);
         await _context.SaveChangesAsync();
         return menu;
     }
-
-    public async Task<IEnumerable<MenuGlobal>> GetAllAsync()
+    
+    public async Task<MenuGlobal> UpdateAsync(MenuGlobal menu)
     {
-        return await _context.MenusGlobales.ToListAsync();
+        _context.MenusGlobales.Update(menu);
+        await _context.SaveChangesAsync();
+        return menu;
+    }
+
+    public async Task DeleteAsync(MenuGlobal menu)
+    {
+        _context.MenusGlobales.Remove(menu);
+        await _context.SaveChangesAsync();
     }
 }
