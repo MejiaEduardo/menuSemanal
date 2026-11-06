@@ -7,7 +7,7 @@ using MenuSemanal.Domain.Entities;
 namespace MenuSemanal.Api.Controllers;
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("api/menus")]
 public class MenuController : ControllerBase
 {
     private readonly IMenuRepository _repository;

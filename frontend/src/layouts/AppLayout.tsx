@@ -9,7 +9,7 @@ export function AppLayout({ children }: AppLayoutProps) {
   return (
     <div className="min-h-screen bg-slate-900 text-slate-100 flex flex-col md:flex-row">
       
-      {/* 1. COLUMNA IZQUIERDA: MENÚ CORPORATIVO (SIDEBAR) */}
+      {/* 1. COLUMNA IZQUIERDA: MENÚ CORPORATIVO (SidEBAR) */}
       <aside className="hidden md:flex md:w-64 md:flex-col bg-slate-950 border-r border-slate-800 justify-between p-5 shrink-0">
         <div>
           <div className="flex items-center gap-3 mb-8 px-2">
@@ -51,7 +51,7 @@ export function AppLayout({ children }: AppLayoutProps) {
         </span>
       </header>
 
-      {/* 3. ÁREA CENTRAL DE CONTENIDO (Aquí se inyecta cualquier módulo hijo) */}
+      {/* 3. ÁREA CENTRAL DE CONTENidO (Aquí se inyecta cualquier módulo hijo) */}
       <main className="flex-1 p-6 md:p-10 overflow-y-auto">
         {children}
       </main>

@@ -2,15 +2,15 @@
 
 // --- ZONA 1: EL CONTRATO (INTERFAZ) ---
 // Actúa como un espejo exacto de nuestra tabla PostgreSQL / DTO en C#.
-// Nuestra tabla actual solo tiene Id y Nombre.
+// Nuestra tabla actual solo tiene id y nombre.
  export interface MenuGlobalProps {
-    Id: number;
-    Nombre: string;
+    id: number;
+    nombre: string;
 }
 
 // --- ZONA 2: LA FIRMA (EXPORTACIÓN NOMBRADA) ---
 // Desestructuramos las props cumpliendo el contrato de HabitoGlobalProps
-export function MenusGlobalCard({ Id, Nombre }: MenuGlobalProps) {
+export function MenusGlobalCard({ id, nombre }: MenuGlobalProps) {
 
     // --- ZONA 3: EL CEREBRO (LÓGICA) ---
     // (Vacío por los momentos, este componente es puramente presentacional)
@@ -18,8 +18,8 @@ export function MenusGlobalCard({ Id, Nombre }: MenuGlobalProps) {
     // --- ZONA 4: EL RENDERIZADO (JSX) ---
     return (
         <article className="habit-card" style={{ border: '1px solid #ccc', padding: '1rem', margin: '1rem', borderRadius: '8px' }}>
-            <small style={{ color: 'gray' }}>ID Catálogo: {Id}</small>
-            <h3>{Nombre}</h3>
+            <small style={{ color: 'gray' }}>id Catálogo: {id}</small>
+            <h3>{nombre}</h3>
 
             {/* 
                En la Unidad 3, cuando tengamos sistema de Usuarios (IAM), 

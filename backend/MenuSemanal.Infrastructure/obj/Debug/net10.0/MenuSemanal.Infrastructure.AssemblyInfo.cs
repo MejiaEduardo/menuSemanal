@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MenuSemanal.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a8e220266f6dc724c64fcaf1d03c82445880402")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76122d785377bc04e0d777cd011e5f269e449b49")]
 [assembly: System.Reflection.AssemblyProductAttribute("MenuSemanal.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MenuSemanal.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

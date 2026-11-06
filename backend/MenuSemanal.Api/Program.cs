@@ -1,40 +1,59 @@
 using System.Text.Json.Serialization;
 using DotNetEnv;
-using MenuSemanal.Infrastructure;
-using Scalar.AspNetCore; // 1. Importamos Scalar
 using MenuSemanal.Application;
+using MenuSemanal.Infrastructure;
+using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Cargar variables de entorno desde el archivo .env local
-Env.Load();
+// TraversePath() busca el .env también en carpetas superiores
+Env.TraversePath().Load();
 
 var connectionString = Environment.GetEnvironmentVariable("ConnectionStrings__PostgresConnection")
-                       ?? throw new InvalidOperationException("Falta la cadena de conexión.");
+                       ?? throw new InvalidOperationException("Falta la cadena de conexión en el archivo .env.");
 
-// Llamamos al método que inyecta los repositorios y la base de datos
-
+var corsAllowedOrigins = Environment.GetEnvironmentVariable("CORS_ALLOWED_ORIGINS")
+                         ?? throw new InvalidOperationException("Falta la variable CORS_ALLOWED_ORIGINS en el archivo .env.");
 
 builder.Services.AddInfrastructure(connectionString);
-// Los enums (DiaSemana, TipoComida) se leen y se muestran como texto: "Lunes", "Almuerzo"...
-builder.Services.AddControllers()
-    .AddJsonOptions(o => o.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter()));
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
 builder.Services.AddApplication();
 
-var app = builder.Build();
+// Los enums (DiaSemana, TipoComida) se leen y se muestran como texto
+builder.Services.AddControllers()
+    .AddJsonOptions(o => o.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter()));
 
-// Configure the HTTP request pipeline.
-app.UseHttpsRedirection();
+builder.Services.AddOpenApi();
+
+const string CorsPolicy = "PoliticaCorsMenuSemanal";
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(CorsPolicy, policy =>
+    {
+        var origenes = corsAllowedOrigins.Split(
+            ',', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+
+        policy.WithOrigins(origenes)
+            .SetIsOriginAllowedToAllowWildcardSubdomains()
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+});
+
+var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
-    // levanta la interfaz grafica moderna consumiendo ese JSON
     app.MapScalarApiReference();
 }
+else
+{
+    // En desarrollo solo escuchas en http, así que se evita el warning
+    app.UseHttpsRedirection();
+}
+
+app.UseCors(CorsPolicy);
 
 app.MapControllers();
 app.Run();

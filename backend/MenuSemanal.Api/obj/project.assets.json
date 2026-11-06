@@ -2418,11 +2418,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hugo Mejia\\Desktop\\Hu Eduardo Mejia\\INGENIERIA EN SISTEMAS\\Pogra web\\menuSemanal\\backend\\MenuSemanal.API\\MenuSemanal.API.csproj",
-      "projectName": "MenuSemanal.API",
-      "projectPath": "C:\\Users\\Hugo Mejia\\Desktop\\Hu Eduardo Mejia\\INGENIERIA EN SISTEMAS\\Pogra web\\menuSemanal\\backend\\MenuSemanal.API\\MenuSemanal.API.csproj",
+      "projectUniqueName": "C:\\Users\\Hugo Mejia\\Desktop\\Hu Eduardo Mejia\\INGENIERIA EN SISTEMAS\\Pogra web\\menuSemanal\\backend\\MenuSemanal.Api\\MenuSemanal.Api.csproj",
+      "projectName": "MenuSemanal.Api",
+      "projectPath": "C:\\Users\\Hugo Mejia\\Desktop\\Hu Eduardo Mejia\\INGENIERIA EN SISTEMAS\\Pogra web\\menuSemanal\\backend\\MenuSemanal.Api\\MenuSemanal.Api.csproj",
       "packagesPath": "C:\\Users\\Hugo Mejia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hugo Mejia\\Desktop\\Hu Eduardo Mejia\\INGENIERIA EN SISTEMAS\\Pogra web\\menuSemanal\\backend\\MenuSemanal.API\\obj\\",
+      "outputPath": "C:\\Users\\Hugo Mejia\\Desktop\\Hu Eduardo Mejia\\INGENIERIA EN SISTEMAS\\Pogra web\\menuSemanal\\backend\\MenuSemanal.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hugo Mejia\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -2502,7 +2502,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.402/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.403/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
